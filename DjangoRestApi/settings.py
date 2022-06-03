@@ -25,7 +25,7 @@ SECRET_KEY = '7reb9d$g$mhgw0_)@y%+jh=$bnj9f*)v4zz1b4b-p+^^=zd8(d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [dental-soft.herokuapp.com]
+ALLOWED_HOSTS = ['dental-soft.herokuapp.com']
 
 
 # Application definition
@@ -96,7 +96,6 @@ DATABASES = {
         'USER': 'gtuwcubkvimumu',
         'PASSWORD': 'b0194d3fa0dc8339e6f63766a766f3a9d28cbe10ffeb78ca291021584c6125a1',
         'PORT': 5432,
-        
     }
 }
 
